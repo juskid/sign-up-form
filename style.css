@@ -1,0 +1,62 @@
+*, *::before, *::after {
+box-sizing: border-box;
+}
+
+* {
+margin: 0;
+}
+
+body {
+line-height: 1.5;
+-webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+display: block;
+max-width: 100%;
+}
+
+input, button, textarea, select {
+font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+overflow-wrap: break-word;
+}
+
+#root, #__next {
+isolation: isolate;
+}
+/*reset*/
+
+
+section {
+    display: flex;
+}
+
+.formDiv {
+    background-color: white;
+}
+
+.rightDiv {
+    background-color: lightcyan;
+    width: 70vw;
+    padding: 40px;
+}
+
+.leftDiv {
+    height: 100vw;
+    width: 30vw;
+    background-image: url('/home/perkfever/Desktop/repos/sign-up-form/marissa-rodriguez-2mKYEVGA4jE-unsplash.jpg');
+}
+
+.fieldDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+fieldset {
+    display: flex;
+    border-width: 0;
+}
